@@ -14,7 +14,8 @@ Data collected 24 Nov 2026 from the main repository of every graduated and
 incubating CNCF project (78; gRPC left out because it merges outside GitHub),
 so every PR in the window had at least six months to be merged or closed.
 53,454 human PRs; 19,722 bot PRs (27% of all PRs) excluded. Full output:
-[results.md](results.md), [results.json](results.json).
+[results.md](results.md), [results.json](results.json); raw data (151,800 PRs, 10 MB):
+[release data-2026-11](https://github.com/officialasishkumar/firstmerge/releases/tag/data-2026-11).
 
 | who opened it | PRs | merged |
 |---|---:|---:|
