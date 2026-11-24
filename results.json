@@ -1,0 +1,766 @@
+{
+  "from": "2025-05-24T16:05:49Z",
+  "to": "2026-05-24T16:05:49Z",
+  "dataFrom": "2025-03-01T00:01:08Z",
+  "repos": 77,
+  "prsAnalysed": 53454,
+  "botPRsExcluded": 19722,
+  "firstTimer": {
+    "label": "",
+    "prs": 8116,
+    "merged": 4032,
+    "mergeRate": 0.4967964514539182
+  },
+  "returningNonMember": {
+    "label": "",
+    "prs": 22962,
+    "merged": 16147,
+    "mergeRate": 0.7032052957059489
+  },
+  "member": {
+    "label": "",
+    "prs": 22376,
+    "merged": 19160,
+    "mergeRate": 0.8562745799070433
+  },
+  "firstTimerClosedUnmerged": 3359,
+  "firstTimerStillOpen": 725,
+  "medianFirstHumanResponse": 60819000000000,
+  "p75FirstHumanResponse": 352456000000000,
+  "respondedWithin24h": 0.4563824544110399,
+  "respondedWithin7d": 0.6690487925086249,
+  "neverRespondedByHuman": 0.1834647609659931,
+  "onlyBotsResponded": 0.14502217841301135,
+  "medianTimeToMerge": 422670000000000,
+  "medianTimeToMergeMembers": 69587000000000,
+  "byFirstResponse": [
+    {
+      "label": "first human response within 24 hours",
+      "prs": 3704,
+      "merged": 2380,
+      "mergeRate": 0.642548596112311
+    },
+    {
+      "label": "1 to 7 days",
+      "prs": 1726,
+      "merged": 1024,
+      "mergeRate": 0.593279258400927
+    },
+    {
+      "label": "more than 7 days",
+      "prs": 1197,
+      "merged": 555,
+      "mergeRate": 0.46365914786967416
+    },
+    {
+      "label": "no human response",
+      "prs": 1489,
+      "merged": 73,
+      "mergeRate": 0.049026192075218265
+    }
+  ],
+  "bySize": [
+    {
+      "label": "under 10 lines",
+      "prs": 2329,
+      "merged": 1464,
+      "mergeRate": 0.6285959639330184
+    },
+    {
+      "label": "10 to 99 lines",
+      "prs": 2894,
+      "merged": 1433,
+      "mergeRate": 0.49516240497581204
+    },
+    {
+      "label": "100 to 499 lines",
+      "prs": 1864,
+      "merged": 808,
+      "mergeRate": 0.4334763948497854
+    },
+    {
+      "label": "500 lines or more",
+      "prs": 1029,
+      "merged": 327,
+      "mergeRate": 0.3177842565597668
+    }
+  ],
+  "byLinkedIssue": [
+    {
+      "label": "links an issue it closes",
+      "prs": 3349,
+      "merged": 1559,
+      "mergeRate": 0.46551209316213793
+    },
+    {
+      "label": "no linked issue",
+      "prs": 4767,
+      "merged": 2473,
+      "mergeRate": 0.5187749108453954
+    }
+  ],
+  "byDescription": [
+    {
+      "label": "description under 100 characters",
+      "prs": 7275,
+      "merged": 3635,
+      "mergeRate": 0.49965635738831615
+    },
+    {
+      "label": "description of 100+ characters",
+      "prs": 841,
+      "merged": 397,
+      "mergeRate": 0.47205707491082044
+    }
+  ],
+  "byFilesChanged": [
+    {
+      "label": "1 file",
+      "prs": 3019,
+      "merged": 1722,
+      "mergeRate": 0.5703875455448824
+    },
+    {
+      "label": "2 to 5 files",
+      "prs": 3176,
+      "merged": 1510,
+      "mergeRate": 0.47544080604534006
+    },
+    {
+      "label": "6 or more files",
+      "prs": 1921,
+      "merged": 800,
+      "mergeRate": 0.41644976574700676
+    }
+  ],
+  "secondPRAfterMerge": {
+    "label": "",
+    "prs": 4032,
+    "merged": 1675,
+    "mergeRate": 0.4154265873015873
+  },
+  "secondPRAfterNoMerge": {
+    "label": "",
+    "prs": 3359,
+    "merged": 1350,
+    "mergeRate": 0.40190532896695447
+  },
+  "projects": [
+    {
+      "repo": "kubernetes/kubernetes",
+      "firstTimerPRs": 870,
+      "merged": 294,
+      "mergeRate": 0.33793103448275863,
+      "medianFirstHumanResponse": 66402000000000,
+      "noHumanResponseShare": 0.3333333333333333
+    },
+    {
+      "repo": "meshery/meshery",
+      "firstTimerPRs": 689,
+      "merged": 444,
+      "mergeRate": 0.6444121915820029,
+      "medianFirstHumanResponse": 6356000000000,
+      "noHumanResponseShare": 0.17851959361393324
+    },
+    {
+      "repo": "argoproj/argo-cd",
+      "firstTimerPRs": 562,
+      "merged": 263,
+      "mergeRate": 0.4679715302491103,
+      "medianFirstHumanResponse": 39910000000000,
+      "noHumanResponseShare": 0.14412811387900357
+    },
+    {
+      "repo": "backstage/backstage",
+      "firstTimerPRs": 394,
+      "merged": 228,
+      "mergeRate": 0.5786802030456852,
+      "medianFirstHumanResponse": 174783000000000,
+      "noHumanResponseShare": 0.1751269035532995
+    },
+    {
+      "repo": "keycloak/keycloak",
+      "firstTimerPRs": 393,
+      "merged": 189,
+      "mergeRate": 0.48091603053435117,
+      "medianFirstHumanResponse": 56148000000000,
+      "noHumanResponseShare": 0.17048346055979643
+    },
+    {
+      "repo": "cilium/cilium",
+      "firstTimerPRs": 326,
+      "merged": 194,
+      "mergeRate": 0.5950920245398773,
+      "medianFirstHumanResponse": 57411000000000,
+      "noHumanResponseShare": 0.08282208588957055
+    },
+    {
+      "repo": "prometheus/prometheus",
+      "firstTimerPRs": 292,
+      "merged": 138,
+      "mergeRate": 0.4726027397260274,
+      "medianFirstHumanResponse": 169786000000000,
+      "noHumanResponseShare": 0.11986301369863013
+    },
+    {
+      "repo": "envoyproxy/envoy",
+      "firstTimerPRs": 284,
+      "merged": 169,
+      "mergeRate": 0.5950704225352113,
+      "medianFirstHumanResponse": 84292000000000,
+      "noHumanResponseShare": 0.1267605633802817
+    },
+    {
+      "repo": "helm/helm",
+      "firstTimerPRs": 246,
+      "merged": 97,
+      "mergeRate": 0.3943089430894309,
+      "medianFirstHumanResponse": 22538000000000,
+      "noHumanResponseShare": 0.15040650406504066
+    },
+    {
+      "repo": "kyverno/kyverno",
+      "firstTimerPRs": 208,
+      "merged": 92,
+      "mergeRate": 0.4423076923076923,
+      "medianFirstHumanResponse": 155765000000000,
+      "noHumanResponseShare": 0.18269230769230768
+    },
+    {
+      "repo": "istio/istio",
+      "firstTimerPRs": 182,
+      "merged": 102,
+      "mergeRate": 0.5604395604395604,
+      "medianFirstHumanResponse": 14606000000000,
+      "noHumanResponseShare": 0.09340659340659341
+    },
+    {
+      "repo": "containerd/containerd",
+      "firstTimerPRs": 171,
+      "merged": 75,
+      "mergeRate": 0.43859649122807015,
+      "medianFirstHumanResponse": 62549000000000,
+      "noHumanResponseShare": 0.27485380116959063
+    },
+    {
+      "repo": "jaegertracing/jaeger",
+      "firstTimerPRs": 162,
+      "merged": 55,
+      "mergeRate": 0.3395061728395062,
+      "medianFirstHumanResponse": 28302000000000,
+      "noHumanResponseShare": 0.21604938271604937
+    },
+    {
+      "repo": "etcd-io/etcd",
+      "firstTimerPRs": 158,
+      "merged": 58,
+      "mergeRate": 0.3670886075949367,
+      "medianFirstHumanResponse": 37744000000000,
+      "noHumanResponseShare": 0.22784810126582278
+    },
+    {
+      "repo": "fluid-cloudnative/fluid",
+      "firstTimerPRs": 142,
+      "merged": 86,
+      "mergeRate": 0.6056338028169014,
+      "medianFirstHumanResponse": 124000000000000,
+      "noHumanResponseShare": 0.24647887323943662
+    },
+    {
+      "repo": "kubevirt/kubevirt",
+      "firstTimerPRs": 136,
+      "merged": 46,
+      "mergeRate": 0.3382352941176471,
+      "medianFirstHumanResponse": 62126000000000,
+      "noHumanResponseShare": 0.19117647058823528
+    },
+    {
+      "repo": "kserve/kserve",
+      "firstTimerPRs": 131,
+      "merged": 51,
+      "mergeRate": 0.3893129770992366,
+      "medianFirstHumanResponse": 182657000000000,
+      "noHumanResponseShare": 0.16793893129770993
+    },
+    {
+      "repo": "kedacore/keda",
+      "firstTimerPRs": 130,
+      "merged": 66,
+      "mergeRate": 0.5076923076923077,
+      "medianFirstHumanResponse": 63393000000000,
+      "noHumanResponseShare": 0.06153846153846154
+    },
+    {
+      "repo": "volcano-sh/volcano",
+      "firstTimerPRs": 125,
+      "merged": 46,
+      "mergeRate": 0.368,
+      "medianFirstHumanResponse": 67228000000000,
+      "noHumanResponseShare": 0.176
+    },
+    {
+      "repo": "goharbor/harbor",
+      "firstTimerPRs": 123,
+      "merged": 43,
+      "mergeRate": 0.34959349593495936,
+      "medianFirstHumanResponse": 154839000000000,
+      "noHumanResponseShare": 0.2032520325203252
+    },
+    {
+      "repo": "lima-vm/lima",
+      "firstTimerPRs": 100,
+      "merged": 54,
+      "mergeRate": 0.54,
+      "medianFirstHumanResponse": 13908000000000,
+      "noHumanResponseShare": 0.05
+    },
+    {
+      "repo": "thanos-io/thanos",
+      "firstTimerPRs": 96,
+      "merged": 38,
+      "mergeRate": 0.3958333333333333,
+      "medianFirstHumanResponse": 152343000000000,
+      "noHumanResponseShare": 0.3645833333333333
+    },
+    {
+      "repo": "rook/rook",
+      "firstTimerPRs": 92,
+      "merged": 57,
+      "mergeRate": 0.6195652173913043,
+      "medianFirstHumanResponse": 29077000000000,
+      "noHumanResponseShare": 0.09782608695652174
+    },
+    {
+      "repo": "karmada-io/karmada",
+      "firstTimerPRs": 91,
+      "merged": 54,
+      "mergeRate": 0.5934065934065934,
+      "medianFirstHumanResponse": 37785000000000,
+      "noHumanResponseShare": 0.14285714285714285
+    },
+    {
+      "repo": "cert-manager/cert-manager",
+      "firstTimerPRs": 89,
+      "merged": 39,
+      "mergeRate": 0.43820224719101125,
+      "medianFirstHumanResponse": 148146000000000,
+      "noHumanResponseShare": 0.1797752808988764
+    },
+    {
+      "repo": "crossplane/crossplane",
+      "firstTimerPRs": 88,
+      "merged": 45,
+      "mergeRate": 0.5113636363636364,
+      "medianFirstHumanResponse": 110554000000000,
+      "noHumanResponseShare": 0.19318181818181818
+    },
+    {
+      "repo": "open-policy-agent/opa",
+      "firstTimerPRs": 84,
+      "merged": 55,
+      "mergeRate": 0.6547619047619048,
+      "medianFirstHumanResponse": 30372000000000,
+      "noHumanResponseShare": 0.011904761904761904
+    },
+    {
+      "repo": "vitessio/vitess",
+      "firstTimerPRs": 80,
+      "merged": 37,
+      "mergeRate": 0.4625,
+      "medianFirstHumanResponse": 53544000000000,
+      "noHumanResponseShare": 0.2
+    },
+    {
+      "repo": "tektoncd/pipeline",
+      "firstTimerPRs": 78,
+      "merged": 43,
+      "mergeRate": 0.5512820512820513,
+      "medianFirstHumanResponse": 221607000000000,
+      "noHumanResponseShare": 0.0641025641025641
+    },
+    {
+      "repo": "coredns/coredns",
+      "firstTimerPRs": 78,
+      "merged": 60,
+      "mergeRate": 0.7692307692307693,
+      "medianFirstHumanResponse": 114798000000000,
+      "noHumanResponseShare": 0.14102564102564102
+    },
+    {
+      "repo": "litmuschaos/litmus",
+      "firstTimerPRs": 75,
+      "merged": 50,
+      "mergeRate": 0.6666666666666666,
+      "medianFirstHumanResponse": 587652000000000,
+      "noHumanResponseShare": 0.04
+    },
+    {
+      "repo": "opencost/opencost",
+      "firstTimerPRs": 72,
+      "merged": 36,
+      "mergeRate": 0.5,
+      "medianFirstHumanResponse": 343887000000000,
+      "noHumanResponseShare": 0.2222222222222222
+    },
+    {
+      "repo": "tikv/tikv",
+      "firstTimerPRs": 70,
+      "merged": 28,
+      "mergeRate": 0.4,
+      "medianFirstHumanResponse": 173913000000000,
+      "noHumanResponseShare": 0.4714285714285714
+    },
+    {
+      "repo": "kubeedge/kubeedge",
+      "firstTimerPRs": 64,
+      "merged": 14,
+      "mergeRate": 0.21875,
+      "medianFirstHumanResponse": 229462000000000,
+      "noHumanResponseShare": 0.390625
+    },
+    {
+      "repo": "spiffe/spire",
+      "firstTimerPRs": 64,
+      "merged": 50,
+      "mergeRate": 0.78125,
+      "medianFirstHumanResponse": 259448000000000,
+      "noHumanResponseShare": 0.046875
+    },
+    {
+      "repo": "dapr/dapr",
+      "firstTimerPRs": 64,
+      "merged": 20,
+      "mergeRate": 0.3125,
+      "medianFirstHumanResponse": 129243000000000,
+      "noHumanResponseShare": 0.3125
+    },
+    {
+      "repo": "strimzi/strimzi-kafka-operator",
+      "firstTimerPRs": 62,
+      "merged": 43,
+      "mergeRate": 0.6935483870967742,
+      "medianFirstHumanResponse": 3252000000000,
+      "noHumanResponseShare": 0.04838709677419355
+    },
+    {
+      "repo": "Project-HAMi/HAMi",
+      "firstTimerPRs": 59,
+      "merged": 39,
+      "mergeRate": 0.6610169491525424,
+      "medianFirstHumanResponse": 84811000000000,
+      "noHumanResponseShare": 0.1694915254237288
+    },
+    {
+      "repo": "cloud-custodian/cloud-custodian",
+      "firstTimerPRs": 57,
+      "merged": 34,
+      "mergeRate": 0.5964912280701754,
+      "medianFirstHumanResponse": 699020000000000,
+      "noHumanResponseShare": 0.14035087719298245
+    },
+    {
+      "repo": "nats-io/nats-server",
+      "firstTimerPRs": 55,
+      "merged": 15,
+      "mergeRate": 0.2727272727272727,
+      "medianFirstHumanResponse": 45845000000000,
+      "noHumanResponseShare": 0.2
+    },
+    {
+      "repo": "cri-o/cri-o",
+      "firstTimerPRs": 52,
+      "merged": 28,
+      "mergeRate": 0.5384615384615384,
+      "medianFirstHumanResponse": 47300000000000,
+      "noHumanResponseShare": 0.057692307692307696
+    },
+    {
+      "repo": "chaos-mesh/chaos-mesh",
+      "firstTimerPRs": 51,
+      "merged": 21,
+      "mergeRate": 0.4117647058823529,
+      "medianFirstHumanResponse": 473140000000000,
+      "noHumanResponseShare": 0.2549019607843137
+    },
+    {
+      "repo": "openkruise/kruise",
+      "firstTimerPRs": 49,
+      "merged": 12,
+      "mergeRate": 0.24489795918367346,
+      "medianFirstHumanResponse": 90569000000000,
+      "noHumanResponseShare": 0.5510204081632653
+    },
+    {
+      "repo": "kubescape/kubescape",
+      "firstTimerPRs": 45,
+      "merged": 39,
+      "mergeRate": 0.8666666666666667,
+      "medianFirstHumanResponse": 9114000000000,
+      "noHumanResponseShare": 0.044444444444444446
+    },
+    {
+      "repo": "openfga/openfga",
+      "firstTimerPRs": 44,
+      "merged": 23,
+      "mergeRate": 0.5227272727272727,
+      "medianFirstHumanResponse": 395732000000000,
+      "noHumanResponseShare": 0.18181818181818182
+    },
+    {
+      "repo": "fluxcd/flux2",
+      "firstTimerPRs": 41,
+      "merged": 31,
+      "mergeRate": 0.7560975609756098,
+      "medianFirstHumanResponse": 16115000000000,
+      "noHumanResponseShare": 0.07317073170731707
+    },
+    {
+      "repo": "cortexproject/cortex",
+      "firstTimerPRs": 41,
+      "merged": 28,
+      "mergeRate": 0.6829268292682927,
+      "medianFirstHumanResponse": 59531000000000,
+      "noHumanResponseShare": 0.07317073170731707
+    },
+    {
+      "repo": "longhorn/longhorn",
+      "firstTimerPRs": 40,
+      "merged": 31,
+      "mergeRate": 0.775,
+      "medianFirstHumanResponse": 40249000000000,
+      "noHumanResponseShare": 0.1
+    },
+    {
+      "repo": "kubevela/kubevela",
+      "firstTimerPRs": 38,
+      "merged": 11,
+      "mergeRate": 0.2894736842105263,
+      "medianFirstHumanResponse": 1472415000000000,
+      "noHumanResponseShare": 0.2631578947368421
+    },
+    {
+      "repo": "linkerd/linkerd2",
+      "firstTimerPRs": 35,
+      "merged": 19,
+      "mergeRate": 0.5428571428571428,
+      "medianFirstHumanResponse": 280735000000000,
+      "noHumanResponseShare": 0.17142857142857143
+    },
+    {
+      "repo": "dragonflyoss/dragonfly",
+      "firstTimerPRs": 33,
+      "merged": 21,
+      "mergeRate": 0.6363636363636364,
+      "medianFirstHumanResponse": 58476000000000,
+      "noHumanResponseShare": 0.15151515151515152
+    },
+    {
+      "repo": "microcks/microcks",
+      "firstTimerPRs": 32,
+      "merged": 17,
+      "mergeRate": 0.53125,
+      "medianFirstHumanResponse": 113962000000000,
+      "noHumanResponseShare": 0.15625
+    },
+    {
+      "repo": "metal3-io/baremetal-operator",
+      "firstTimerPRs": 31,
+      "merged": 17,
+      "mergeRate": 0.5483870967741935,
+      "medianFirstHumanResponse": 69278000000000,
+      "noHumanResponseShare": 0.0967741935483871
+    },
+    {
+      "repo": "wasmCloud/wasmCloud",
+      "firstTimerPRs": 28,
+      "merged": 13,
+      "mergeRate": 0.4642857142857143,
+      "medianFirstHumanResponse": 33743000000000,
+      "noHumanResponseShare": 0.14285714285714285
+    },
+    {
+      "repo": "falcosecurity/falco",
+      "firstTimerPRs": 27,
+      "merged": 20,
+      "mergeRate": 0.7407407407407407,
+      "medianFirstHumanResponse": 151955000000000,
+      "noHumanResponseShare": 0
+    },
+    {
+      "repo": "knative/serving",
+      "firstTimerPRs": 26,
+      "merged": 14,
+      "mergeRate": 0.5384615384615384,
+      "medianFirstHumanResponse": 40705000000000,
+      "noHumanResponseShare": 0.15384615384615385
+    },
+    {
+      "repo": "buildpacks/pack",
+      "firstTimerPRs": 25,
+      "merged": 10,
+      "mergeRate": 0.4,
+      "medianFirstHumanResponse": 233969000000000,
+      "noHumanResponseShare": 0.32
+    },
+    {
+      "repo": "projectcontour/contour",
+      "firstTimerPRs": 22,
+      "merged": 10,
+      "mergeRate": 0.45454545454545453,
+      "medianFirstHumanResponse": 1261117000000000,
+      "noHumanResponseShare": 0.13636363636363635
+    },
+    {
+      "repo": "open-telemetry/community",
+      "firstTimerPRs": 22,
+      "merged": 16,
+      "mergeRate": 0.7272727272727273,
+      "medianFirstHumanResponse": 4751000000000,
+      "noHumanResponseShare": 0.045454545454545456
+    },
+    {
+      "repo": "openyurtio/openyurt",
+      "firstTimerPRs": 20,
+      "merged": 12,
+      "mergeRate": 0.6,
+      "medianFirstHumanResponse": 541679000000000,
+      "noHumanResponseShare": 0.15
+    },
+    {
+      "repo": "cubeFS/cubefs",
+      "firstTimerPRs": 19,
+      "merged": 10,
+      "mergeRate": 0.5263157894736842,
+      "medianFirstHumanResponse": 242256000000000,
+      "noHumanResponseShare": 0.3157894736842105
+    },
+    {
+      "repo": "k8gb-io/k8gb",
+      "firstTimerPRs": 17,
+      "merged": 12,
+      "mergeRate": 0.7058823529411765,
+      "medianFirstHumanResponse": 27552000000000,
+      "noHumanResponseShare": 0.058823529411764705
+    },
+    {
+      "repo": "operator-framework/operator-sdk",
+      "firstTimerPRs": 16,
+      "merged": 6,
+      "mergeRate": 0.375,
+      "medianFirstHumanResponse": 60193000000000,
+      "noHumanResponseShare": 0.375
+    },
+    {
+      "repo": "open-cluster-management-io/ocm",
+      "firstTimerPRs": 16,
+      "merged": 13,
+      "mergeRate": 0.8125,
+      "medianFirstHumanResponse": 46644000000000,
+      "noHumanResponseShare": 0.125
+    },
+    {
+      "repo": "kubeflow/kubeflow",
+      "firstTimerPRs": 14,
+      "merged": 3,
+      "mergeRate": 0.21428571428571427,
+      "medianFirstHumanResponse": 332496000000000,
+      "noHumanResponseShare": 0.35714285714285715
+    },
+    {
+      "repo": "fluent/fluentd",
+      "firstTimerPRs": 13,
+      "merged": 8,
+      "mergeRate": 0.6153846153846154,
+      "medianFirstHumanResponse": 31506000000000,
+      "noHumanResponseShare": 0.07692307692307693
+    },
+    {
+      "repo": "containernetworking/cni",
+      "firstTimerPRs": 12,
+      "merged": 5,
+      "mergeRate": 0.4166666666666667,
+      "medianFirstHumanResponse": 74534000000000,
+      "noHumanResponseShare": 0.4166666666666667
+    },
+    {
+      "repo": "spiffe/spiffe",
+      "firstTimerPRs": 11,
+      "merged": 10,
+      "mergeRate": 0.9090909090909091,
+      "medianFirstHumanResponse": 1841000000000,
+      "noHumanResponseShare": 0
+    },
+    {
+      "repo": "artifacthub/hub",
+      "firstTimerPRs": 11,
+      "merged": 4,
+      "mergeRate": 0.36363636363636365,
+      "medianFirstHumanResponse": 58310000000000,
+      "noHumanResponseShare": 0.36363636363636365
+    },
+    {
+      "repo": "emissary-ingress/emissary",
+      "firstTimerPRs": 10,
+      "merged": 1,
+      "mergeRate": 0.1,
+      "medianFirstHumanResponse": 3122048000000000,
+      "noHumanResponseShare": 0.4
+    },
+    {
+      "repo": "cloudevents/spec",
+      "firstTimerPRs": 8,
+      "merged": 5,
+      "mergeRate": 0.625,
+      "medianFirstHumanResponse": 114035000000000,
+      "noHumanResponseShare": 0.125
+    },
+    {
+      "repo": "confidential-containers/confidential-containers",
+      "firstTimerPRs": 7,
+      "merged": 6,
+      "mergeRate": 0.8571428571428571,
+      "medianFirstHumanResponse": 684000000000,
+      "noHumanResponseShare": 0.14285714285714285
+    },
+    {
+      "repo": "flatcar/Flatcar",
+      "firstTimerPRs": 5,
+      "merged": 3,
+      "mergeRate": 0.6,
+      "medianFirstHumanResponse": 152661000000000,
+      "noHumanResponseShare": 0
+    },
+    {
+      "repo": "open-feature/spec",
+      "firstTimerPRs": 4,
+      "merged": 3,
+      "mergeRate": 0.75,
+      "medianFirstHumanResponse": 262000000000,
+      "noHumanResponseShare": 0.25
+    },
+    {
+      "repo": "notaryproject/notation",
+      "firstTimerPRs": 3,
+      "merged": 2,
+      "mergeRate": 0.6666666666666666,
+      "medianFirstHumanResponse": 55598000000000,
+      "noHumanResponseShare": 0
+    },
+    {
+      "repo": "theupdateframework/python-tuf",
+      "firstTimerPRs": 3,
+      "merged": 1,
+      "mergeRate": 0.3333333333333333,
+      "medianFirstHumanResponse": 54252000000000,
+      "noHumanResponseShare": 0
+    },
+    {
+      "repo": "in-toto/in-toto",
+      "firstTimerPRs": 3,
+      "merged": 0,
+      "mergeRate": 0,
+      "medianFirstHumanResponse": 361000000000,
+      "noHumanResponseShare": 0.3333333333333333
+    }
+  ]
+}
